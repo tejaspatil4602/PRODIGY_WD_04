@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <ul><a href="#home">Home</a></ul>
+            <ul><a href="#skills">Skills</a></ul>
+            <ul><a href="#projects">Projects</a></ul>
+            <ul><a href="#contactus">Contact Us</a></ul>
+        </nav>
+    </div>
+    <div class="main">
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to my Personal Portfolio!</h2>
+            <span>I'm a passionate web developer with experience in HTML/CSS and JavaScript.</span>
+            <span> I transform ideas into interactive and responsive websites. Explore my portfolio to witness the
+                fusion of creativity and technology in every project. Let's build the web together!</span>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills:</h2>
+            <div class="skills-logo"><img src="assets/html.png" alt="HTML"></div>
+            <div class="skills-logo"><img src="assets/css.png" alt="CSS"></div>
+            <div class="skills-logo"><img src="assets/js.png" alt="JavaScript"></div>
+        </section>
+        <!-- Projects Section  -->
+        <section id="projects">
+            <h2>Projects:</h2>
+            <div class="project-link"><a href="https://github.com/pranavkokadwar/PRODIGY_WD_01"><img
+                        src="assets/github.png" alt="Github_Link">Project 1 - Responsive Navbar</a></div>
+            <div class="project-link"><a href="https://github.com/pranavkokadwar/PRODIGY_WD_02"><img
+                        src="assets/github.png" alt="Github_Link">Project 2 - StopWatch</a></div>
+            <div class="project-link"><a href="https://github.com/pranavkokadwar/PRODIGY_WD_03-"><img
+                        src="assets/github.png" alt="Github_Link">Project 3 - Tic Tic-Tac-Toe</a></div>
+            <div class="project-link"><a href="https://github.com/pranavkokadwar/PRODIGY_WD_04"><img
+                        src="assets/github.png" alt="Github_Link">Project 4 - Personal Portfolio</a></div>
+        </section>
+        <!-- Contact Us Section  -->
+        <section id="contactus">
+            <h2>Contact Us</h2>
+
+            <form action="" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="5" cols="40"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+
+        </section>
+    </div>
+</body>
+
+</html>
